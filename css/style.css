@@ -1,3 +1,10 @@
+body{
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ background-color: whitesmoke;
+}
+
 .h-container{
     height: 400px !important;
     background-image: url(../img/cover.png);
@@ -10,6 +17,27 @@
    color: white !important;
 }
 
+
+.header-main-row{
+    height: 367px;
+}
+
+.first-card-photo{
+    height: 250px;
+}
+
+
+.first-card-photo:hover{
+    opacity: 0.2;
+}
+
+
+
+
+.header-main{
+    width: 100%;
+    margin: auto;}
+
 @media only screen and (max-width: 984px) {
      
     .logo-text{
@@ -17,7 +45,10 @@
     }
     
     .navbar {
-         background-color: white !important;   
+         background-color: white !important; 
+         position: absolute;
+         z-index: 1;  
+         width: 100%;
      }
 
      .nav-link{
