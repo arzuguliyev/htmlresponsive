@@ -1,0 +1,28 @@
+.h-container{
+    height: 400px !important;
+    background-image: url(../img/cover.png);
+    background-position: center;
+    
+}
+
+.nav-link{
+   
+   color: white !important;
+}
+
+@media only screen and (max-width: 984px) {
+     
+    .logo-text{
+        text-align: center;
+    }
+    
+    .navbar {
+         background-color: white !important;   
+     }
+
+     .nav-link{
+   
+        color: darkkhaki !important;
+     }
+     
+    }
